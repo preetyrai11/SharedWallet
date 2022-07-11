@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "receiveMoney",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FunctionExample.sol": "FunctionsExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FunctionExample.sol": {
+			"keccak256": "0x03333a09e4e8524b78be363e82b3676777e5ec7cb8e41b4aeda330b430f5a8bf",
+			"urls": [
+				"bzz-raw://189bb7d84d3c3a7228c0c9012f03e44a8ded3a407d875f9bbdd4647c18a3d67d",
+				"dweb:/ipfs/QmPn4aiNQtoWNV9JRrrzTfeeBGG5G4jXosTzbi72S6zyxX"
+			]
+		}
+	},
+	"version": 1
+}

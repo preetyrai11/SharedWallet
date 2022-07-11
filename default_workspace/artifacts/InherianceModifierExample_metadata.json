@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modifier.sol": "InherianceModifierExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modifier.sol": {
+			"keccak256": "0x748558a65c774fb1ea215b56226f37068a3d1fed3098e770974c36cfc8110019",
+			"urls": [
+				"bzz-raw://dac42cab58b9cb1ff3acb12ac4d5bd3492406960f4099c15a8f7a5945d0a2e14",
+				"dweb:/ipfs/QmbxVRcwhYGTBFuTh2fkHnFPwMmzLQPL86VTcQJbvB1Y9M"
+			]
+		}
+	},
+	"version": 1
+}

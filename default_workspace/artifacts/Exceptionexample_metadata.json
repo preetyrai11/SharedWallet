@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ExceptionExample.sol": "Exceptionexample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ExceptionExample.sol": {
+			"keccak256": "0x3cd918fc23321db0c87c199f308165378c9dc823a46fbb5b5073baaf1fe5c5ab",
+			"urls": [
+				"bzz-raw://b80b1771d8bf3ff7cfea099356d15d4b6804fdc8e38d6ea616630ed37eb8be82",
+				"dweb:/ipfs/QmPJDsjPJcEDekbmGfSMvWfNRZrjP4ok6cPGnkC8fx1sJp"
+			]
+		}
+	},
+	"version": 1
+}

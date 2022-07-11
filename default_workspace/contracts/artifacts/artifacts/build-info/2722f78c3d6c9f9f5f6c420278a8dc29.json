@@ -1,0 +1,77 @@
+{
+	"id": "2722f78c3d6c9f9f5f6c420278a8dc29",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.4.17",
+	"solcLongVersion": "0.4.17+commit.bdeb9e52",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/artifacts/hadcoins_ico.sol": {
+				"content": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {},
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "contracts/artifacts/hadcoins_ico.sol:9:1: Warning: Source file does not specify required compiler version!Consider adding \"pragma solidity ^0.4.17\n\n^\n",
+				"message": "Source file does not specify required compiler version!Consider adding \"pragma solidity ^0.4.17",
+				"severity": "warning",
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/artifacts/hadcoins_ico.sol": {
+				"ast": {
+					"absolutePath": "contracts/artifacts/hadcoins_ico.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "16:0:0"
+				},
+				"id": 0,
+				"legacyAST": {
+					"attributes": {
+						"absolutePath": "contracts/artifacts/hadcoins_ico.sol",
+						"exportedSymbols": {},
+						"nodes": [
+							null
+						]
+					},
+					"id": 1,
+					"name": "SourceUnit",
+					"src": "16:0:0"
+				}
+			}
+		}
+	}
+}

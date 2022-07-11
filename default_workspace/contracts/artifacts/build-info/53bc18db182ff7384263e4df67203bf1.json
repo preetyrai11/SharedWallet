@@ -1,0 +1,324 @@
+{
+	"id": "53bc18db182ff7384263e4df67203bf1",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.4.17",
+	"solcLongVersion": "0.4.17+commit.bdeb9e52",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/3_Ballot.sol": {
+				"content": "pragma solidity ^0.4.17;\n\ncontract Inbox{\n    \n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"contracts/3_Ballot.sol": {
+				"Inbox": {
+					"abi": [],
+					"devdoc": {
+						"methods": {}
+					},
+					"evm": {
+						"assembly": "    /* \"contracts/3_Ballot.sol\":26:48  contract Inbox{... */\n  mstore(0x40, 0x60)\n  jumpi(tag_1, iszero(callvalue))\n  0x0\n  dup1\n  revert\ntag_1:\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x0\n  codecopy\n  0x0\n  return\nstop\n\nsub_0: assembly {\n        /* \"contracts/3_Ballot.sol\":26:48  contract Inbox{... */\n      mstore(0x40, 0x60)\n      0x0\n      dup1\n      revert\n\n    auxdata: 0xa165627a7a7230582007cc28fcfb34fa17917df7e7483d95cd9eac554667a56a68314a9ac0f3cc70700029\n}\n",
+						"bytecode": {
+							"linkReferences": {},
+							"object": "60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a7230582007cc28fcfb34fa17917df7e7483d95cd9eac554667a56a68314a9ac0f3cc70700029",
+							"opcodes": "PUSH1 0x60 PUSH1 0x40 MSTORE CALLVALUE ISZERO PUSH1 0xE JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x35 DUP1 PUSH1 0x1B PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x60 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 SMOD 0xcc 0x28 0xfc CREATE2 CALLVALUE STATICCALL OR SWAP2 PUSH30 0xF7E7483D95CD9EAC554667A56A68314A9AC0F3CC70700029000000000000 ",
+							"sourceMap": "26:22:0:-;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"linkReferences": {},
+							"object": "6060604052600080fd00a165627a7a7230582007cc28fcfb34fa17917df7e7483d95cd9eac554667a56a68314a9ac0f3cc70700029",
+							"opcodes": "PUSH1 0x60 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 SMOD 0xcc 0x28 0xfc CREATE2 CALLVALUE STATICCALL OR SWAP2 PUSH30 0xF7E7483D95CD9EAC554667A56A68314A9AC0F3CC70700029000000000000 ",
+							"sourceMap": "26:22:0:-;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "10600",
+								"executionCost": "61",
+								"totalCost": "10661"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "PUSH",
+									"value": "60"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "PUSH",
+									"value": "40"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "MSTORE"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "CALLVALUE"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "ISZERO"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "PUSH [tag]",
+									"value": "1"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "JUMPI"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "DUP1"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "REVERT"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "tag",
+									"value": "1"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "JUMPDEST"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "PUSH #[$]",
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "DUP1"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "PUSH [$]",
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "CODECOPY"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 26,
+									"end": 48,
+									"name": "RETURN"
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a165627a7a7230582007cc28fcfb34fa17917df7e7483d95cd9eac554667a56a68314a9ac0f3cc70700029",
+									".code": [
+										{
+											"begin": 26,
+											"end": 48,
+											"name": "PUSH",
+											"value": "60"
+										},
+										{
+											"begin": 26,
+											"end": 48,
+											"name": "PUSH",
+											"value": "40"
+										},
+										{
+											"begin": 26,
+											"end": 48,
+											"name": "MSTORE"
+										},
+										{
+											"begin": 26,
+											"end": 48,
+											"name": "PUSH",
+											"value": "0"
+										},
+										{
+											"begin": 26,
+											"end": 48,
+											"name": "DUP1"
+										},
+										{
+											"begin": 26,
+											"end": 48,
+											"name": "REVERT"
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.4.17+commit.bdeb9e52\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/3_Ballot.sol\":\"Inbox\"},\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/3_Ballot.sol\":{\"keccak256\":\"0xdd059834a9f728a73c55b7834fc941dcd91c5c6cf9285521c83820e65feb2953\",\"urls\":[\"bzzr://995edc5d86e48dc912d8167ed7028e6f2325331d555e98ac4258799a9c0ac36f\"]}},\"version\":1}",
+					"userdoc": {
+						"methods": {}
+					}
+				}
+			}
+		},
+		"sources": {
+			"contracts/3_Ballot.sol": {
+				"ast": {
+					"absolutePath": "contracts/3_Ballot.sol",
+					"exportedSymbols": {
+						"Inbox": [
+							2
+						]
+					},
+					"id": 3,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.4",
+								".17"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:24:0"
+						},
+						{
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"documentation": null,
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "Inbox",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "26:22:0"
+						}
+					],
+					"src": "0:67:0"
+				},
+				"id": 0,
+				"legacyAST": {
+					"attributes": {
+						"absolutePath": "contracts/3_Ballot.sol",
+						"exportedSymbols": {
+							"Inbox": [
+								2
+							]
+						}
+					},
+					"children": [
+						{
+							"attributes": {
+								"literals": [
+									"solidity",
+									"^",
+									"0.4",
+									".17"
+								]
+							},
+							"id": 1,
+							"name": "PragmaDirective",
+							"src": "0:24:0"
+						},
+						{
+							"attributes": {
+								"baseContracts": [
+									null
+								],
+								"contractDependencies": [
+									null
+								],
+								"contractKind": "contract",
+								"documentation": null,
+								"fullyImplemented": true,
+								"linearizedBaseContracts": [
+									2
+								],
+								"name": "Inbox",
+								"nodes": [
+									null
+								],
+								"scope": 3
+							},
+							"id": 2,
+							"name": "ContractDefinition",
+							"src": "26:22:0"
+						}
+					],
+					"id": 3,
+					"name": "SourceUnit",
+					"src": "0:67:0"
+				}
+			}
+		}
+	}
+}

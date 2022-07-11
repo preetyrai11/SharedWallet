@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "balanceRecieved",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SendMoneyExample.sol": "sendMoneyExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SendMoneyExample.sol": {
+			"keccak256": "0x3fa5ccbfda8d0fecd7e069d7712a3c8af93aca0570586c43dd75615ecf425001",
+			"urls": [
+				"bzz-raw://0676f0c1abf9ebf23151ab4b1b99f43b6e27e7514e9dd0986e12c80d4a0e72ed",
+				"dweb:/ipfs/QmfWgYzHYsEdB1nZ8R6UTtjCWkBmk7S4n9v5vPsEPB8Sbn"
+			]
+		}
+	},
+	"version": 1
+}

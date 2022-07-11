@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libraries.sol": "LibrariesExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"libraries.sol": {
+			"keccak256": "0xaf7d11bed966fe4a5a6032fb5820152d791b5824f670667eca2060784420a742",
+			"urls": [
+				"bzz-raw://6cea66cf36fb9ea14cb209afd005b62f1c6cd606229600cea08368565523d267",
+				"dweb:/ipfs/QmNrpGVBnCEJLsiMnHHFyQZsAgH3vEkgcGMFbYcJVbZHXp"
+			]
+		}
+	},
+	"version": 1
+}

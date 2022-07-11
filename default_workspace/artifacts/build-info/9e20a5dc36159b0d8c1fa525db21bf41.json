@@ -1,0 +1,69 @@
+{
+	"id": "9e20a5dc36159b0d8c1fa525db21bf41",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.5.17",
+	"solcLongVersion": "0.5.17+commit.d19bba13",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"StartStopUpdateExample.sol": {
+				"content": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "StartStopUpdateExample.sol:17:1: Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.17;\"\n\n^\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.17;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 32,
+					"file": "StartStopUpdateExample.sol",
+					"start": 32
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"StartStopUpdateExample.sol": {
+				"ast": {
+					"absolutePath": "StartStopUpdateExample.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "32:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

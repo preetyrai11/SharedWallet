@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "sendMoney",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_paused",
+						"type": "bool"
+					}
+				],
+				"name": "setPaused",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StartStopUpdateExample.sol": "StartStopUpdateExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StartStopUpdateExample.sol": {
+			"keccak256": "0x58dfc23033d0a816c6c81742dcbfce711b3843bb9833b81e1a29e9f11accb70d",
+			"urls": [
+				"bzz-raw://a02c59930f2b14c1c5f4d416b178765a0f4d21e5e32d5c7816f049bb525d5be2",
+				"dweb:/ipfs/QmcjPtLxCXRTzxyFrDJjf3GvYGWvGRERSQSpA6qFNBJVDB"
+			]
+		}
+	},
+	"version": 1
+}

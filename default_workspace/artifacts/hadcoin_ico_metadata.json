@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.4.17+commit.bdeb9e52"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "max_hadcoins",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hadcoins.ico.sol": "hadcoin_ico"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hadcoins.ico.sol": {
+			"keccak256": "0xeaab77baccf1422bd6901db63a6ff222ced57b5d33944dc9b37e82e1c3cdc5c3",
+			"urls": [
+				"bzzr://26e638bd2cd76a808b1981dfa0d05743d66a339dae1c65797dce23ca5b1b5c10"
+			]
+		}
+	},
+	"version": 1
+}

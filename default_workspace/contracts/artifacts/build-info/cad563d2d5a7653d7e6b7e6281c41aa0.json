@@ -1,0 +1,92 @@
+{
+	"id": "cad563d2d5a7653d7e6b7e6281c41aa0",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.4.17",
+	"solcLongVersion": "0.4.17+commit.bdeb9e52",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/3_Ballot.sol": {
+				"content": "pragma solidity ^0.4.17;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {},
+		"sources": {
+			"contracts/3_Ballot.sol": {
+				"ast": {
+					"absolutePath": "contracts/3_Ballot.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.4",
+								".17"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:24:0"
+						}
+					],
+					"src": "0:44:0"
+				},
+				"id": 0,
+				"legacyAST": {
+					"attributes": {
+						"absolutePath": "contracts/3_Ballot.sol",
+						"exportedSymbols": {}
+					},
+					"children": [
+						{
+							"attributes": {
+								"literals": [
+									"solidity",
+									"^",
+									"0.4",
+									".17"
+								]
+							},
+							"id": 1,
+							"name": "PragmaDirective",
+							"src": "0:24:0"
+						}
+					],
+					"id": 2,
+					"name": "SourceUnit",
+					"src": "0:44:0"
+				}
+			}
+		}
+	}
+}

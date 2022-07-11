@@ -1,0 +1,77 @@
+{
+	"id": "6973e286904bd85e89d189e9a002301c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.4.17",
+	"solcLongVersion": "0.4.17+commit.bdeb9e52",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"coinAdd.sol": {
+				"content": ""
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {},
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "coinAdd.sol:1:1: Warning: Source file does not specify required compiler version!Consider adding \"pragma solidity ^0.4.17\n\n^\n",
+				"message": "Source file does not specify required compiler version!Consider adding \"pragma solidity ^0.4.17",
+				"severity": "warning",
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"coinAdd.sol": {
+				"ast": {
+					"absolutePath": "coinAdd.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "0:0:0"
+				},
+				"id": 0,
+				"legacyAST": {
+					"attributes": {
+						"absolutePath": "coinAdd.sol",
+						"exportedSymbols": {},
+						"nodes": [
+							null
+						]
+					},
+					"id": 1,
+					"name": "SourceUnit",
+					"src": "0:0:0"
+				}
+			}
+		}
+	}
+}

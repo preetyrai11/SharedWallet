@@ -1,0 +1,324 @@
+{
+	"id": "50ca9f2e5c1b0a1ade9858761522e910",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.4.17",
+	"solcLongVersion": "0.4.17+commit.bdeb9e52",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"hadcoins.ico.sol": {
+				"content": "\r\npragma solidity ^0.4.11;\r\n\r\ncontract hadcoin_ico{\r\n     \r\n     // Introducing the maximum number of hadcoins availaable fro s\r\n}\r\n\r\n\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"hadcoins.ico.sol": {
+				"hadcoin_ico": {
+					"abi": [],
+					"devdoc": {
+						"methods": {}
+					},
+					"evm": {
+						"assembly": "    /* \"hadcoins.ico.sol\":30:130  contract hadcoin_ico{\r... */\n  mstore(0x40, 0x60)\n  jumpi(tag_1, iszero(callvalue))\n  0x0\n  dup1\n  revert\ntag_1:\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x0\n  codecopy\n  0x0\n  return\nstop\n\nsub_0: assembly {\n        /* \"hadcoins.ico.sol\":30:130  contract hadcoin_ico{\r... */\n      mstore(0x40, 0x60)\n      0x0\n      dup1\n      revert\n\n    auxdata: 0xa165627a7a72305820bf73a6e75fe277f16d823c59cdd17b8f4c5e6d9324bd61f25eabe1e57554b66a0029\n}\n",
+						"bytecode": {
+							"linkReferences": {},
+							"object": "60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820bf73a6e75fe277f16d823c59cdd17b8f4c5e6d9324bd61f25eabe1e57554b66a0029",
+							"opcodes": "PUSH1 0x60 PUSH1 0x40 MSTORE CALLVALUE ISZERO PUSH1 0xE JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x35 DUP1 PUSH1 0x1B PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x60 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 0xbf PUSH20 0xA6E75FE277F16D823C59CDD17B8F4C5E6D9324BD PUSH2 0xF25E 0xab 0xe1 0xe5 PUSH22 0x54B66A00290000000000000000000000000000000000 ",
+							"sourceMap": "30:100:0:-;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"linkReferences": {},
+							"object": "6060604052600080fd00a165627a7a72305820bf73a6e75fe277f16d823c59cdd17b8f4c5e6d9324bd61f25eabe1e57554b66a0029",
+							"opcodes": "PUSH1 0x60 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 0xbf PUSH20 0xA6E75FE277F16D823C59CDD17B8F4C5E6D9324BD PUSH2 0xF25E 0xab 0xe1 0xe5 PUSH22 0x54B66A00290000000000000000000000000000000000 ",
+							"sourceMap": "30:100:0:-;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "10600",
+								"executionCost": "61",
+								"totalCost": "10661"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "PUSH",
+									"value": "60"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "PUSH",
+									"value": "40"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "MSTORE"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "CALLVALUE"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "ISZERO"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "PUSH [tag]",
+									"value": "1"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "JUMPI"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "DUP1"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "REVERT"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "tag",
+									"value": "1"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "JUMPDEST"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "PUSH #[$]",
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "DUP1"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "PUSH [$]",
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "CODECOPY"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 30,
+									"end": 130,
+									"name": "RETURN"
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a165627a7a72305820bf73a6e75fe277f16d823c59cdd17b8f4c5e6d9324bd61f25eabe1e57554b66a0029",
+									".code": [
+										{
+											"begin": 30,
+											"end": 130,
+											"name": "PUSH",
+											"value": "60"
+										},
+										{
+											"begin": 30,
+											"end": 130,
+											"name": "PUSH",
+											"value": "40"
+										},
+										{
+											"begin": 30,
+											"end": 130,
+											"name": "MSTORE"
+										},
+										{
+											"begin": 30,
+											"end": 130,
+											"name": "PUSH",
+											"value": "0"
+										},
+										{
+											"begin": 30,
+											"end": 130,
+											"name": "DUP1"
+										},
+										{
+											"begin": 30,
+											"end": 130,
+											"name": "REVERT"
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.4.17+commit.bdeb9e52\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"hadcoins.ico.sol\":\"hadcoin_ico\"},\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"hadcoins.ico.sol\":{\"keccak256\":\"0x895ff55153cfc1c714720e35a4141d39476cc8e5267fb69f82d1d3029f954e77\",\"urls\":[\"bzzr://fb1c7b3c241c8596abb1858b8b93dd7b7098b84baa00bcfc5a1f7357cc6b4bd7\"]}},\"version\":1}",
+					"userdoc": {
+						"methods": {}
+					}
+				}
+			}
+		},
+		"sources": {
+			"hadcoins.ico.sol": {
+				"ast": {
+					"absolutePath": "hadcoins.ico.sol",
+					"exportedSymbols": {
+						"hadcoin_ico": [
+							2
+						]
+					},
+					"id": 3,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.4",
+								".11"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "2:24:0"
+						},
+						{
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"documentation": null,
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "hadcoin_ico",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "30:100:0"
+						}
+					],
+					"src": "2:136:0"
+				},
+				"id": 0,
+				"legacyAST": {
+					"attributes": {
+						"absolutePath": "hadcoins.ico.sol",
+						"exportedSymbols": {
+							"hadcoin_ico": [
+								2
+							]
+						}
+					},
+					"children": [
+						{
+							"attributes": {
+								"literals": [
+									"solidity",
+									"^",
+									"0.4",
+									".11"
+								]
+							},
+							"id": 1,
+							"name": "PragmaDirective",
+							"src": "2:24:0"
+						},
+						{
+							"attributes": {
+								"baseContracts": [
+									null
+								],
+								"contractDependencies": [
+									null
+								],
+								"contractKind": "contract",
+								"documentation": null,
+								"fullyImplemented": true,
+								"linearizedBaseContracts": [
+									2
+								],
+								"name": "hadcoin_ico",
+								"nodes": [
+									null
+								],
+								"scope": 3
+							},
+							"id": 2,
+							"name": "ContractDefinition",
+							"src": "30:100:0"
+						}
+					],
+					"id": 3,
+					"name": "SourceUnit",
+					"src": "2:136:0"
+				}
+			}
+		}
+	}
+}
